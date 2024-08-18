@@ -33,7 +33,8 @@ new Vue({
           name: "From Sharad Rathod",
           artist: "To Raag Vagadiya",
           cover: "./img/sharad.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
+          // source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
+          source: "./mp3/sharad.m4a",
           url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
           favorited: false
         },
@@ -41,7 +42,8 @@ new Vue({
           name: "From Rekha Rathod",
           artist: "To Raag Vagadiya",
           cover: "./img/rekha.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+          // source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+          source: "./mp3/rekha.m4a",
           url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
           favorited: false
         }
@@ -158,8 +160,9 @@ new Vue({
       vm.generateTime();
     };
     this.audio.onended = function () {
-      vm.nextTrack();
-      this.isTimerPlaying = true;
+      // vm.nextTrack();
+      // this.isTimerPlaying = true;
+      vm.resetPlayer();
     };
 
     // this is optional (for preload covers)
