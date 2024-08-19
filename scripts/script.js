@@ -24,8 +24,8 @@ new Vue({
         {
           name: "From Jyoti Vagadiya",
           artist: "To Raag Vagadiya",
-          cover: "./img/jyoti.png",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
+          cover: "./img/jyoti2.jpg",
+          source: "./mp3/jyoti.m4a",
           url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
           favorited: true
         },
