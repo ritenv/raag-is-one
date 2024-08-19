@@ -17,7 +17,7 @@ new Vue({
           artist: "To Raag Vagadiya",
           // cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
           cover: "./img/sunil.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+          source: "./mp3/sunil.m4a",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
         },
